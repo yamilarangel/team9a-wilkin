@@ -23,6 +23,7 @@ class GameHandler(webapp2.RequestHandler):
 	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
 	self.response.write(game_template.render()) # render game-start.html
 
+ 
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
@@ -30,3 +31,18 @@ app = webapp2.WSGIApplication([
   ('/', MainHandler),
   ('/game', GameHandler)
   ], debug=True)
+
+
+#buttons:
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 30ed481f14ebe9e882291aa29026ed65d4725985
