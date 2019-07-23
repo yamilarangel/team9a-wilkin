@@ -34,5 +34,3 @@ app = webapp2.WSGIApplication([
 #buttons:
 
 
-
-
