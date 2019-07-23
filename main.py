@@ -15,7 +15,8 @@ the_jinja_env = jinja2.Environment(
 # the handler section
 class MainHandler(webapp2.RequestHandler):
   def get(self):  # for a get request
-    self.response.write('Greetings')  # the response
+  	welcome_template = the_jinja_env.get_template('templates/index.html')
+  	self.response.write(welcome_template.render())
 
 
 # the app configuration section	
@@ -23,3 +24,17 @@ app = webapp2.WSGIApplication([
   #('/', MainPage),
   ('/', MainHandler),
   ], debug=True)
+
+
+#buttons:
+
+
+
+
+
+
+
+
+
+
+
