@@ -15,8 +15,13 @@ the_jinja_env = jinja2.Environment(
 # the handler section
 class MainHandler(webapp2.RequestHandler):
   def get(self):  # for a get request
-  	welcome_template = the_jinja_env.get_template('templates/index.html')
-  	self.response.write(welcome_template.render())
+    start_template = the_jinja_env.get_template('templates/index.html')  # path to index.html
+    self.response.write(start_template.render()) # render index.html
+
+class GameHandler(webapp2.RequestHandler):
+  def get(self):
+	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
+	self.response.write(game_template.render()) # render game-start.html
 
  
 
@@ -24,6 +29,7 @@ class MainHandler(webapp2.RequestHandler):
 app = webapp2.WSGIApplication([
   #('/', MainPage),
   ('/', MainHandler),
+  ('/game', GameHandler)
   ], debug=True)
 
 
@@ -39,3 +45,4 @@ app = webapp2.WSGIApplication([
 
 
 
+>>>>>>> 30ed481f14ebe9e882291aa29026ed65d4725985
