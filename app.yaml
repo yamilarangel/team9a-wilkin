@@ -4,12 +4,14 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /styles.css
+  static_dir: styleDir
+
 - url: /styleDir
   static_dir: stylesDir 
 
 - url: /.*
   script: main.app
-
 
 libraries:
 - name: jinja2
