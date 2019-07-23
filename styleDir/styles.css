@@ -1,19 +1,24 @@
-<<<<<<< HEAD
 
 
 #button-start{
+	background-color:red;
+	
+   
+}
+
+/* #button-controls{
 	background-color:#8B0000;
+	color:white;
 
 }
 
-#
+#button-account{
+	background-color:#8B0000;
+	color:white;
 
+}
+*/
 
-
-
-
-
-=======
 canvas {
 	padding-left: 0;
     padding-right: 0;
@@ -22,4 +27,13 @@ canvas {
     display: block;
     width: 800px;
 }
->>>>>>> b6269b13145f62bf837f291f601236e23d022480
+
+
+
+
+
+
+
+
+
+
