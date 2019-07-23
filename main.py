@@ -15,12 +15,11 @@ the_jinja_env = jinja2.Environment(
 # the handler section
 class MainHandler(webapp2.RequestHandler):
   def get(self):  # for a get request
-    results_template = the_jinja_env.get_template('templates/index.html')  # path to index.html
+    results_template = the_jinja_env.get_template('templates/game-start.html')  # path to index.html
     self.response.write(results_template.render()) # render index.html
 
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
-  #('/', MainPage),
   ('/', MainHandler),
   ], debug=True)
