@@ -29,6 +29,32 @@
   
 }
 
+
+#button-account{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-top:500px;
+	margin-bottom:25px;
+	border: solid;
+}
+
+#button-back{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 100px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-bottom:25px;
+	border: solid;
+}
+
 #title{
     text-align: center;
     font-family: 'Press Start 2P';
@@ -62,6 +88,7 @@ canvas {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    display: block;
    
 }
 #front{
@@ -71,5 +98,18 @@ canvas {
 #back{
 	background-color: pink;
 	width: 25%;
+}
+
+#instructions, #objetive, #list{
+ font-family: 'Press Start 2P';
+ color: white;
+
+
+}
+
+p{
+	font-family: 'Press Start 2P';
+ color: white;
+ font-size: 20px;
 }
 

@@ -28,17 +28,21 @@ class GameHandler(webapp2.RequestHandler):
   def post(self):
   	answer = self.request.get("questionForm")
 
-
+class InstructionsHandler(webapp2.RequestHandler):
+  def get(self):
+	inst_template = the_jinja_env.get_template('templates/instructions.html') # path to game-start.html
+	self.response.write(inst_template.render()) # render game-start.html
 
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
   ('/', MainHandler),
-  ('/game', GameHandler)
+  ('/game', GameHandler),
+  ('/instructions', InstructionsHandler)
   ], debug=True)
 
 
 
-#buttons:
+
 
 
