@@ -84,7 +84,7 @@ quiz = [
     },
     {
         'name' : 'q10',
-        'question' : " 7 % 2 would evaluate as 3.5  ",
+        'question' : " 7 % 2 would evaluate as 3.5",
         'options' : [
             {'answer' : 'True', 'correct' : False},
             {'answer' : 'False', 'correct' : True},
