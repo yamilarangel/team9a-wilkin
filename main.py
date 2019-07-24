@@ -2,7 +2,7 @@
 import webapp2
 import jinja2
 import os
-
+from quiz import quiz 
 # this initializes the jinja2 environment
 # this will be the same in every app that uses the jinja2 templating library 
 the_jinja_env = jinja2.Environment(
@@ -22,6 +22,7 @@ class GameHandler(webapp2.RequestHandler):
   def get(self):
 	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
 	self.response.write(game_template.render()) # render game-start.html
+  
 
 
 # the app configuration section	

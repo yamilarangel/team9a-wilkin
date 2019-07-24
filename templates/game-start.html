@@ -22,6 +22,21 @@ var myGameArea = {
 }
 
 </script>
+<!-- Code for the basic structure of the question card -->
+    <div class="questionCard"id="qCardBck">
+        <div id="q1Card">
+            <!-- API info for the first question will go in these tags --> 
+            <h1 id="question"> {{question}}</h1>
+            <form>
+                <select name="questionForm">
+                    <option value="true"> True </option>
+                    <option value="false"> False </option>
+                </select>
+                <input type="submit" value="Sumbit Answer">
+            </form>
+        </div>
+
+    </div>
 
 
 </body>
