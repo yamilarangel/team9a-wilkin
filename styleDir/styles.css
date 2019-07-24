@@ -64,5 +64,12 @@ canvas {
     margin-left: auto;
    
 }
-
+#front{
+	 background-color: red;
+	 width:25%;
+}
+#back{
+	background-color: pink;
+	width: 25%;
+}
 

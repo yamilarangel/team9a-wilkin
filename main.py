@@ -10,6 +10,9 @@ the_jinja_env = jinja2.Environment(
   extensions=['jinja2.ext.autoescape'],
   autoescape=True)
 
+
+
+
 # other functions should go above the handlers or in a separate file
 
 # the handler section
@@ -22,7 +25,10 @@ class GameHandler(webapp2.RequestHandler):
   def get(self):
 	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
 	self.response.write(game_template.render()) # render game-start.html
-  
+  def post(self):
+  	answer = self.request.get("questionForm")
+
+
 
 
 # the app configuration section	
