@@ -1,5 +1,4 @@
 
-
  #button-instructions{
 	background-color:#8B0000;
 	color:white;
@@ -83,7 +82,6 @@ body{
 }
 
 
-
 canvas {
     border: 1px solid #d3d3d3;
     background-color: #181818;
@@ -93,7 +91,14 @@ canvas {
     display: block;
    
 }
-
+#front{
+	 background-color: red;
+	 width:25%;
+}
+#back{
+	background-color: pink;
+	width: 25%;
+}
 
 #instructions, #objetive, #list{
  font-family: 'Press Start 2P';

@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>TRIVIA RUN</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
-
+    <link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
+    <script src="/javaS/script.js"></script>
 </head>
 <body onload="">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script> 
+
     <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black;"></canvas>
 
 <script>
@@ -42,6 +47,25 @@ ctx.stroke();
 
 
 </script>
+<!-- Code for the basic structure of the question card -->
+    <div id="card">
+        <div id="front">
+            <h1> ? </h1>
+        </div>
+        <div id="back">
+            <!-- API info for the first question will go in these tags --> 
+            <h1 id="question"> </h1>
+            <form method="post">
+                <select name="questionForm">
+                    <option value="true"> True </option>
+                    <option value="false"> False </option>
+                </select>
+                <input type="submit" value="Sumbit Answer">
+            </form>
+           
+
+        </div>
+    </div>
 
 
 </body>
