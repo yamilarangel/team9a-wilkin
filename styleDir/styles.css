@@ -1,10 +1,24 @@
+/*Background color */
+/*body{
+ background-image: url("team9a-wilkin/images/background.jpg");
+}*/
+body {
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/029fe592-0d92-473c-bfa8-566cf2f8768d/d2o9zvs-e11145dc-5d2e-4e8a-933d-e7b4ad6e5194.jpg/v1/fill/w_900,h_563,q_75,strp/scary_cave_by_byakko_kun_d2o9zvs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvMDI5ZmU1OTItMGQ5Mi00NzNjLWJmYTgtNTY2Y2YyZjg3NjhkXC9kMm85enZzLWUxMTE0NWRjLTVkMmUtNGU4YS05MzNkLWU3YjRhZDZlNTE5NC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Zb-tBfglIcdbzLXbnyagvzhqUwBIIQykzkA9HgNkDnc);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
 h1{
 	font-family: 'Press Start 2P', cursive;;
-	font-size: 59px;
+	font-size: 65px;
+    text-align: center;
+    color: white;
 }
 
 #button-start{
 	background-color:#8B0000;
+
 }
 canvas {
     border: 1px solid #d3d3d3;
@@ -14,8 +28,5 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 800px;
 }
-body {
- background-image: url("images/background.jpg");
-}
+
