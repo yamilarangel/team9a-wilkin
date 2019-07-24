@@ -10,6 +10,7 @@
 	margin-right: 50px;
 	margin-top:500px;
 	margin-bottom:25px;
+	border: solid;
 
    
 }
@@ -24,6 +25,8 @@
 	margin-right: 50px;
 	margin-top:500px;
 	margin-bottom:25px;
+	border: solid;
+
 }
 
 #button-account{
@@ -36,6 +39,8 @@
 	margin-right: 0px;
 	margin-top:500px;
 	margin-bottom:25px;
+	border: solid;
+
 
 }
 
@@ -48,6 +53,7 @@ canvas {
     margin-left: auto;
     margin-right: auto;
     display: block;
+
 }
 
 
