@@ -23,13 +23,18 @@ class GameHandler(webapp2.RequestHandler):
 	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
 	self.response.write(game_template.render()) # render game-start.html
 
+class LoginHandler(webapp2.RequestHandler):
+  def get(self):
+    login_template = the_jinja_env.get_template('templates/login.html') # path to login.html
+    self.response.write(login_template.render()) # render login.html
  
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
   #('/', MainPage),
   ('/', MainHandler),
-  ('/game', GameHandler)
+  ('/game', GameHandler),
+  ('/login', LoginHandler)
   ], debug=True)
 
 

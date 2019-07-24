@@ -10,5 +10,21 @@ canvas {
     margin-right: auto;
     display: block;
 }
+#game-body{
+	background-color: black;
+}
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+#login {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	float: left;
+	font-size: 25px;
+	background-color: black;
+}
 
 

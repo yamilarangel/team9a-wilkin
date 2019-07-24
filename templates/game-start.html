@@ -2,14 +2,17 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
+<link rel="stylesheet" type="text/css" href="/styleDir/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body onload="startGame()">
-    <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black;"></canvas>
-
+<body id="game-body">
+    <h1>☠️ Trivia Run ☠️</h1>
+    <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black"></canvas>
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
+ctx.font = "30px Times New Roman";
+ctx.strokeText("1", 70, 87);
 ctx.rect(40, 40, 75, 75);
 ctx.rect(250, 40, 75, 75);
 ctx.rect(680, 40, 75, 75);
@@ -33,10 +36,8 @@ ctx.stroke();
 ctx.stroke();
 ctx.stroke();
 
-
-
 </script>
 
-
-</body>
+</audio>
+</body>   
 </html>
