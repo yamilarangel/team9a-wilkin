@@ -1,9 +1,8 @@
+console.log("potatoes")
+
+
 $(document.ready)(function(){
 
-	$("#card").flip({
-		axis: y,
-		trigger: hover
-	});
 
 	let questions = [
     {
