@@ -1,6 +1,4 @@
-
-
- #button-instructions{
+#button-instructions{
 	background-color:#8B0000;
 	color:white;
 	font-size: 16px;
@@ -16,6 +14,21 @@
 
 
 #button-start{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-top:500px;
+	margin-bottom:25px;
+	border: solid;
+
+  
+}
+
+#button-account{
 	background-color:#8B0000;
 	color:white;
 	font-size: 16px;
@@ -83,6 +96,18 @@ h1 {
 	float: left;
 	font-size: 25px;
 	background-color: black;
+}
+
+#button-back {
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 100px;
+	margin-left:0px;
+	border: solid;
+	box-shadow: 5px 5px, grey
+
 }
 
 
