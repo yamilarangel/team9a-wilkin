@@ -82,6 +82,7 @@ body{
 }
 
 
+
 canvas {
     border: 1px solid #d3d3d3;
     background-color: #181818;
@@ -112,4 +113,21 @@ p{
  color: white;
  font-size: 20px;
 }
+
+
+#card{
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  left:600px;
+  bottom: 200px;
+  width:1000px;
+  height: 100px;
+
+}
+
+#front{
+	padding: 20px;
+}
+
 
