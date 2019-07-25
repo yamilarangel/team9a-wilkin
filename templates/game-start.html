@@ -10,47 +10,42 @@
     <script src="/javaS/script.js"></script>
 </head>
 <body onload="">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
-    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script> 
+    <!-- Back button code  -->
+    <a href="/"> <button id= "button-back" type="button">BACK</button> </a>
+    <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black;">
 
-    <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black;"></canvas>
-
+     </canvas>
+     
 <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.fillStyle = "#980000";
-ctx.fillRect(40, 40, 85, 85);
-ctx.fillRect(250, 40, 85, 85);
-ctx.fillRect(680, 40, 85, 85);
-ctx.fillRect(470, 40, 85, 85);
-ctx.fillRect(890, 40, 85, 85);
-ctx.fillRect(40, 500, 85, 85);
-ctx.fillRect(890, 500, 85, 85);
-ctx.fillRect(470, 500, 85, 85);
-ctx.fillRect(680, 500, 85, 85);
-ctx.fillRect(250, 500, 85, 85);
-ctx.stroke();
-ctx.stroke(); 
-ctx.stroke();
-ctx.stroke();
-ctx.stroke();
-
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "#980000";
+    ctx.fillRect(40, 40, 85, 85);
+    ctx.fillRect(250, 40, 85, 85);
+    ctx.fillRect(680, 40, 85, 85);
+    ctx.fillRect(470, 40, 85, 85);
+    ctx.fillRect(890, 40, 85, 85);
+    ctx.fillRect(40, 500, 85, 85);
+    ctx.fillRect(890, 500, 85, 85);
+    ctx.fillRect(470, 500, 85, 85);
+    ctx.fillRect(680, 500, 85, 85);
+    ctx.fillRect(250, 500, 85, 85);
+    ctx.stroke();
+    ctx.stroke(); 
+    ctx.stroke();
+    ctx.stroke();
+    ctx.stroke();
 
 </script>
-<!-- Code for the basic structure of the question card -->
-    <div id="card">
-        <div id="front">
-            <h1> ? </h1>
-        </div>
-        <div id="back">
-            <!-- API info for the first question will go in these tags --> 
-            <h1 id="question"> </h1>
-            <form method="post">
+<div class="flip-card">
+     <div id="card">
+        <h1 id="question"> </h1>
+            <form>
                 <select name="questionForm">
-                    <option value="true"> True </option>
-                    <option value="false"> False </option>
+                    <option id="true"value="true"> True </option>
+                    <option id="false"value="false"> False </option>
                 </select>
-                <input class="btn" type="submit" value="Sumbit Answer">
+                <input id="submit"type="submit" value="Sumbit Answer">
             </form>
            
 
@@ -58,8 +53,9 @@ ctx.stroke();
     </div>
 
 
+
+
 </body>
 </html>
 
- <a href="/"> <button id= "button-back" type="button">BACK</button> </a>
-
+ 
