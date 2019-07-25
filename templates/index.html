@@ -1,23 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html>``
 <html>
 <head>
 
-	<title>Welcome to Trivia Run!</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel = "stylesheet" type = "text/css"  href = "/styleDir/styles.css">
+
+	<title>Trivia Run!</title>
 	<!-- The link for the icons (hearts) library --> 
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel = "stylesheet" type = "text/css"  href = "/styleDir/styles.css" />
 	<script src="/javaS/script.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-	
+
 </head>
+	<form method="post" action="/">
+		<label > Username: <input type="username" name="username">
+		</label>	
+		<input type="submit" name="submit">
+	</form>
 <body>
-<h1 id="title">Trivia Run</h1>
+    <h1 id="title">Trivia Run</h1>
 
-<a href="/instructions"> <button id= "button-instructions" type="button" >INSTRUCTIONS</button> </a> 
+    <a href="/instructions"> <button id= "button-instructions" type="button" >INSTRUCTIONS</button> </a> 
 
- <a href="/game"> <button id= "button-start" type="button" >START!</button> </a>
+     <a href="/game"> <button id= "button-start" type="button" >START!</button> </a>
 
-  <a href="/"> <button id= "button-account" type="button">ACCOUNT</button> </a>
+     <a href="/"> <button id= "button-account" type="button">ACCOUNT</button> </a>
 	
 </body>
 </html>
+

@@ -6,6 +6,10 @@ threadsafe: true
 handlers:
 - url: /styleDir
   static_dir: styleDir
+
+- url: /images
+  static_dir: images
+
 - url: /javaS
   static_dir: javaS
 
