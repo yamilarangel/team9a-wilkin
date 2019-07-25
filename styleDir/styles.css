@@ -1,5 +1,5 @@
+#button-instructions{
 
- #button-instructions{
 	background-color:#8B0000;
 	color:white;
 	font-size: 16px;
@@ -53,6 +53,7 @@
 	margin-right: 50px;
 	margin-bottom:25px;
 	border: solid;
+
 }
 
 #title{
@@ -64,7 +65,7 @@
 }
 
 body{
-    background-image: url( https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/029fe592-0d92-473c-bfa8-566cf2f8768d/d2o9zvs-e11145dc-5d2e-4e8a-933d-e7b4ad6e5194.jpg/v1/fill/w_900,h_563,q_75,strp/scary_cave_by_byakko_kun_d2o9zvs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvMDI5ZmU1OTItMGQ5Mi00NzNjLWJmYTgtNTY2Y2YyZjg3NjhkXC9kMm85enZzLWUxMTE0NWRjLTVkMmUtNGU4YS05MzNkLWU3YjRhZDZlNTE5NC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Zb-tBfglIcdbzLXbnyagvzhqUwBIIQykzkA9HgNkDnc);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/029fe592-0d92-473c-bfa8-566cf2f8768d/d2o9zvs-e11145dc-5d2e-4e8a-933d-e7b4ad6e5194.jpg/v1/fill/w_900,h_563,q_75,strp/scary_cave_by_byakko_kun_d2o9zvs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvMDI5ZmU1OTItMGQ5Mi00NzNjLWJmYTgtNTY2Y2YyZjg3NjhkXC9kMm85enZzLWUxMTE0NWRjLTVkMmUtNGU4YS05MzNkLWU3YjRhZDZlNTE5NC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Zb-tBfglIcdbzLXbnyagvzhqUwBIIQykzkA9HgNkDnc);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -92,6 +93,36 @@ canvas {
     display: block;
    
 }
+
+#game-body{
+	background-color: black;
+}
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 4px 5px grey;
+}
+#login {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	float: left;
+	font-size: 25px;
+	background-color: black;
+}
+
+#button-back {
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 100px;
+	margin-left:0px;
+	border: solid;
+	box-shadow: 5px 5px, grey
+}
+
 #front{
 	 background-color: red;
 	 width:25%;
@@ -104,14 +135,12 @@ canvas {
 #instructions, #objetive, #list{
  font-family: 'Press Start 2P';
  color: white;
-
-
 }
 
-p{
-	font-family: 'Press Start 2P';
- color: white;
- font-size: 20px;
+p {
+font-family: 'Press Start 2P';
+color: white;
+font-size: 20px;
 }
 
 
@@ -128,6 +157,7 @@ p{
 
 #front{
 	padding: 20px;
+
 }
 /*Styling for card wrapping */
     
