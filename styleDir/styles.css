@@ -1,11 +1,74 @@
+<<<<<<< HEAD
 /*menue*/
+=======
+
+ #button-instructions{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
+	margin-left:50px;
+	margin-right: 50px;
+	margin-top:500px;
+	margin-bottom:25px;
+	border: solid;
+
+}
+
+
+#button-start{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-top:500px;
+	margin-bottom:25px;
+	border: solid;
+
+  
+}
+
+
+#button-account{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 400px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-top:500px;
+	margin-bottom:25px;
+	border: solid;
+}
+
+#button-back{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 100px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-bottom:25px;
+	border: solid;
+}
+>>>>>>> 29e2cd6bc2b5bcbc906433c87bcb90c8e6186b64
 
 #title{
     text-align: center;
     font-family: 'Press Start 2P';
     font-size: 100px;
     color: white;
+<<<<<<< HEAD
 
+=======
+    text-shadow: 4px 5px grey;
+>>>>>>> 29e2cd6bc2b5bcbc906433c87bcb90c8e6186b64
 }
 
 #body1{
@@ -25,15 +88,54 @@
 	margin-bottom:25px;
 
 }
+
+
+
 canvas {
     border: 1px solid #d3d3d3;
-    background-color: white;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #181818;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+   
+}
+#front{
+	 background-color: red;
+	 width:25%;
+}
+#back{
+	background-color: pink;
+	width: 25%;
+}
 
+#instructions, #objetive, #list{
+ font-family: 'Press Start 2P';
+ color: white;
+
+
+}
+
+p{
+	font-family: 'Press Start 2P';
+ color: white;
+ font-size: 20px;
+}
+
+
+#card{
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  left:600px;
+  bottom: 200px;
+  width:1000px;
+  height: 100px;
+
+}
+
+#front{
+	padding: 20px;
 }
 
 /*scoreboard css*/

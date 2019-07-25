@@ -1,11 +1,13 @@
 #app.yaml
 runtime: python27
-api_version: 1
+api_version: 1  
 threadsafe: true
 
 handlers:
 - url: /styleDir
   static_dir: styleDir
+- url: /javaS
+  static_dir: javaS
 
 - url: /.*
   script: main.app

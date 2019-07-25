@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>TRIVIA RUN</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
-
+    <link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
+    <script src="/javaS/script.js"></script>
 </head>
-<body onload="startGame()">
+<body onload="">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script> 
+
     <canvas id="myCanvas" width="1000" height="600" style="border:1px solid black;"></canvas>
 
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-ctx.rect(40, 40, 75, 75);
-ctx.rect(250, 40, 75, 75);
-ctx.rect(680, 40, 75, 75);
-ctx.rect(470, 40, 75, 75);
-ctx.rect(890, 40, 75, 75);
-ctx.rect(890, 150, 75, 75);
-ctx.rect(890, 260, 75, 75);
-ctx.rect(470, 260, 75, 75);
-ctx.rect(680, 260, 75, 75);
-ctx.rect(250, 260, 75, 75);
-ctx.rect(40, 260, 75, 75);
-ctx.rect(40, 370, 75, 75);
-ctx.rect(40, 480, 75, 75);
-ctx.rect(250, 480, 75, 75);
-ctx.rect(680, 480, 75, 75);
-ctx.rect(470, 480, 75, 75);
-ctx.rect(890, 480, 75, 75);
+ctx.fillStyle = "#980000";
+ctx.fillRect(40, 40, 85, 85);
+ctx.fillRect(250, 40, 85, 85);
+ctx.fillRect(680, 40, 85, 85);
+ctx.fillRect(470, 40, 85, 85);
+ctx.fillRect(890, 40, 85, 85);
+ctx.fillRect(40, 500, 85, 85);
+ctx.fillRect(890, 500, 85, 85);
+ctx.fillRect(470, 500, 85, 85);
+ctx.fillRect(680, 500, 85, 85);
+ctx.fillRect(250, 500, 85, 85);
 ctx.stroke();
 ctx.stroke(); 
 ctx.stroke();
@@ -36,9 +36,30 @@ ctx.stroke();
 ctx.stroke();
 
 
-
 </script>
+<!-- Code for the basic structure of the question card -->
+    <div id="card">
+        <div id="front">
+            <h1> ? </h1>
+        </div>
+        <div id="back">
+            <!-- API info for the first question will go in these tags --> 
+            <h1 id="question"> </h1>
+            <form method="post">
+                <select name="questionForm">
+                    <option value="true"> True </option>
+                    <option value="false"> False </option>
+                </select>
+                <input class="btn" type="submit" value="Sumbit Answer">
+            </form>
+           
+
+        </div>
+    </div>
 
 
 </body>
 </html>
+
+ <a href="/"> <button id= "button-back" type="button">BACK</button> </a>
+
