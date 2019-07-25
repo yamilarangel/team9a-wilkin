@@ -14,10 +14,14 @@
 	border: solid;
 
 }
-
 #username{
     text-align: center;
-    
+    color:white;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+    text-shadow: 2px 3px grey;
+    margin-left: 480px; 
+    font-size: 45px;
 }
 
 #button-start{
