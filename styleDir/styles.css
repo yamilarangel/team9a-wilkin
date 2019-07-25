@@ -147,7 +147,7 @@ font-size: 20px;
 }
 
 
-#card{
+/*#card{
   position: absolute;
   top: 250px;
   right: 200px;
@@ -162,6 +162,7 @@ font-size: 20px;
 	padding: 20px;
 
 }
+<<<<<<< HEAD
 
 /*scoreboard css*/
 #title2 {
@@ -186,4 +187,8 @@ font-size: 20px;
 
 
 
+
+
+/*Styling for card wrapping */
+    
 
