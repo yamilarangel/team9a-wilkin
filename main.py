@@ -2,13 +2,16 @@
 import webapp2
 import jinja2
 import os
-
+from quiz import quiz 
 # this initializes the jinja2 environment
 # this will be the same in every app that uses the jinja2 templating library 
 the_jinja_env = jinja2.Environment(
   loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
   extensions=['jinja2.ext.autoescape'],
   autoescape=True)
+
+
+
 
 # other functions should go above the handlers or in a separate file
 
@@ -22,21 +25,22 @@ class GameHandler(webapp2.RequestHandler):
   def get(self):
 	game_template = the_jinja_env.get_template('templates/game-start.html') # path to game-start.html
 	self.response.write(game_template.render()) # render game-start.html
+  def post(self):
+  	answer = self.request.get("questionForm")
 
 class InstructionsHandler(webapp2.RequestHandler):
   def get(self):
 	inst_template = the_jinja_env.get_template('templates/instructions.html') # path to game-start.html
 	self.response.write(inst_template.render()) # render game-start.html
 
- 
 
 # the app configuration section	
 app = webapp2.WSGIApplication([
-  #('/', MainPage),
   ('/', MainHandler),
   ('/game', GameHandler),
   ('/instructions', InstructionsHandler)
   ], debug=True)
+
 
 
 
