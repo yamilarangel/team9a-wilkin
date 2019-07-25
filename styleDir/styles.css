@@ -1,4 +1,5 @@
 #button-instructions{
+
 	background-color:#8B0000;
 	color:white;
 	font-size: 16px;
@@ -28,6 +29,7 @@
   
 }
 
+
 #button-account{
 	background-color:#8B0000;
 	color:white;
@@ -39,8 +41,19 @@
 	margin-top:500px;
 	margin-bottom:25px;
 	border: solid;
+}
 
-  
+#button-back{
+	background-color:#8B0000;
+	color:white;
+	font-size: 16px;
+	text-align: center;
+	width: 100px;
+	margin-left:0px;
+	margin-right: 50px;
+	margin-bottom:25px;
+	border: solid;
+
 }
 
 #title{
@@ -80,6 +93,7 @@ canvas {
     display: block;
    
 }
+
 #game-body{
 	background-color: black;
 }
@@ -107,6 +121,42 @@ h1 {
 	margin-left:0px;
 	border: solid;
 	box-shadow: 5px 5px, grey
+}
+
+#front{
+	 background-color: red;
+	 width:25%;
+}
+#back{
+	background-color: pink;
+	width: 25%;
+}
+
+#instructions, #objetive, #list{
+ font-family: 'Press Start 2P';
+ color: white;
+}
+
+p {
+font-family: 'Press Start 2P';
+color: white;
+font-size: 20px;
+}
+
+
+#card{
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  left:600px;
+  bottom: 200px;
+  width:1000px;
+  height: 100px;
+
+}
+
+#front{
+	padding: 20px;
 
 }
 

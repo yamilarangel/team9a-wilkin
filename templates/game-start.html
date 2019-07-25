@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
- <title>Trivia Run</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="/styleDir/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-</head>
-
+    <title>TRIVIA RUN</title>
+    <link rel="stylesheet" type="text/css" href="/styleDir/styles.css"> 
+    <script src="/javaS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"> </script> 
+</head>    
 <body id="game-body">
 <a href="/"> <button id= "button-back" type="button">Back</button> </a>
     <h1>☠️ Trivia Run ☠️</h1>
@@ -31,30 +34,45 @@ ctx.fillText("– – – – – – – – – – – – ", 470
 ctx.fillText("– – – – – – – – – – – – ", 680, 550);
 ctx.fillStyle = "#980000";
 ctx.fillRect(40, 40, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(250, 40, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(680, 40, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(470, 40, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(890, 40, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(40, 500, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(890, 500, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(470, 500, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(680, 500, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.fillRect(250, 500, 85, 85);
-ctx.fillStyle = "#980000";
 ctx.stroke();
 ctx.stroke(); 
 ctx.stroke();
 ctx.stroke();
 ctx.stroke();
 </script>
-</body>   
+  
+
+<!-- Code for the basic structure of the question card 
+   <div id="card"> 
+       <div id="front"> 
+        <h1 id="questionMark"> ? </h1>h1
+     </div> 
+       <div id="back">
+            API info for the first question will go in these tags
+        <h1 id="question"> </h1> 
+            <form method="post">
+                <select name="questionForm">
+                    <option value="true"> True </option>
+                    <option value="false"> False </option>
+                </select>
+                <input class="btn" type="submit" value="Sumbit Answer">
+            </form> 
+           
+
+        </div>
+    </div> -->
+</body>
+
 </html>
+
+
+
