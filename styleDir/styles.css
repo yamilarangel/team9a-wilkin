@@ -115,7 +115,7 @@ p{
 }
 
 
-#card{
+/*#card{
   position: absolute;
   top: 250px;
   right: 200px;
@@ -129,5 +129,5 @@ p{
 #front{
 	padding: 20px;
 }
-
-
+/*Styling for card wrapping */
+    

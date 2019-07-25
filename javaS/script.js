@@ -1,13 +1,13 @@
-$(document.ready)(function(){
+$(document).ready(function(){
+//Function to run automatically display the first question on the back of the card
+   
 
-	$("#card").flip({
-		axis: y,
-		trigger: hover
-	});
 
+
+//The array for the questions 
 	let questions = [
     {
-        question: 'A boolean is something that stores true or false values',
+        question1: 'A boolean is something that stores true or false values',
         answer: 'True'
     },
 
@@ -63,7 +63,7 @@ $(document.ready)(function(){
     },
 ]
 
+$("#question").text(questions[0].question1); 
 
 
-
-})
+});
